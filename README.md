@@ -41,16 +41,22 @@ https://github.com/user-attachments/assets/5cd5eaa7-1c4b-498e-9b8f-0df80bc10bfa
 
 5.Run the app
    flask run
+
+
 Visit: http://127.0.0.1:5000
+
+
 🔐 Login Credentials
 Username: admin
 Password: 123
+
+
 You can change them in app.py or insert more users in User table.
 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first.
 
-📃 License
-This project is open-source under MIT License.
+
+
+
 
 Let’s connect and collaborate! Feel free to reach out for tech discussions, project collaborations!
 Linkedin:-https://www.linkedin.com/in/gangaravitejareddy-yaramareddy-33b538277/
