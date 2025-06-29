@@ -21,40 +21,38 @@ https://github.com/user-attachments/assets/5cd5eaa7-1c4b-498e-9b8f-0df80bc10bfa
 
 ## 🛠️ Setup Instructions
 
-1. Clone the repo
+1. Clone the repo:-
    git clone https://github.com/raviteja2518/smartparking.git
    cd smartparking
 
 
-2. Create virtual environment & activate
+2. Create virtual environment & activate:-
    python -m venv venv
    venv\\Scripts\\activate
 
 
-3. Install dependencies
+3. Install dependencies:-
    pip install -r requirements.txt
 
 
-4. Delete old DB if exists
+4. Delete old DB if exists:-
    del parking.db
 
 
-5.Run the app
+5.Run the app:-
    flask run
 
 
 Visit: http://127.0.0.1:5000
 
 
-🔐 Login Credentials
+🔐 Login Credentials:-
 Username: admin
 Password: 123
 
 
 You can change them in app.py or insert more users in User table.
 🤝 Contributing
-
-
 
 
 
