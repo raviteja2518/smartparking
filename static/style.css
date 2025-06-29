@@ -1,0 +1,18 @@
+body.bg-gradient {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}

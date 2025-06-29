@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card p-4 shadow-lg w-75 mx-auto bg-white">
+    <h3 class="text-center text-success">🧾 Parking Receipt</h3>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Vehicle Number: <strong>{{ vehicle_number }}</strong></li>
+        <li class="list-group-item">Spot: <strong>{{ spot }}</strong></li>
+        <li class="list-group-item">Owner Name: <strong>{{ owner_name }}</strong></li>
+        <li class="list-group-item">Phone: <strong>{{ phone_number }}</strong></li>
+        <li class="list-group-item">Check-in: {{ checkin }}</li>
+        <li class="list-group-item">Check-out: {{ checkout }}</li>
+        <li class="list-group-item">Duration: {{ total_minutes }} minutes</li>
+        <li class="list-group-item">Total: ₹{{ bill }}</li>
+    </ul>
+    <div class="text-center mt-4">
+        <a href="/" class="btn btn-primary">Back to Dashboard</a>
+    </div>
+</div>
+{% endblock %}
